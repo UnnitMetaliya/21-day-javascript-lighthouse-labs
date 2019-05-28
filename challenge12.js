@@ -1,5 +1,6 @@
-// Challenge #13 - Initializing navigation dimensions x, y, z to 0
+// Challenge #12: Setting the frequency using formula.
 
-var initialize = () => {
-  navigation.x = navigation.y = navigation.z = 0;
+var setFrequency = () => {
+  let tuningFrequency = (radio.range.low + radio.range.high) / 2;
+  radio.frequency = tuningFrequency;
 };
