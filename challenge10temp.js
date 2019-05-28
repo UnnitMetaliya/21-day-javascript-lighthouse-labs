@@ -1,4 +1,4 @@
-// Challenge #12: Setting the frequency using formula.
+// Challenge #10 - Setting the radio frequency
 
 var setFrequency = () => {
   let tuningFrequency = (radio.range.low + radio.range.high) / 2;

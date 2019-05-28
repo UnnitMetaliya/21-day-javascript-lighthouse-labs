@@ -1,13 +1,24 @@
-// Challenge #14: Calibarating X.
+// Challenge #14: Calibrating Y & Z.
 
-var calibrateX = () => {
-  for (var i = 1; i <= 12; i++) {
+var calibrateY = () => {
+  for (var i = 1; i <= 60; i++) {
     var signal = checkSignal();
     if (signal) {
-      navigation.x = signal;
+      navigation.y = signal;
       break;
     }
   }
 };
 
-calibrateX();
+var calibrateZ = () => {
+  for (var i = 1; i <= 60; i++) {
+    var signal = checkSignal();
+    if (signal) {
+      navigation.z = signal;
+      break;
+    }
+  }
+};
+
+calibrateY();
+calibrateZ();
