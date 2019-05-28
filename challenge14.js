@@ -1,4 +1,4 @@
-// Challenge #14: Calibrating Y & Z.
+// Challenge #14 - Calibrating Y & Z.
 
 var calibrateY = () => {
   for (var i = 1; i <= 60; i++) {
