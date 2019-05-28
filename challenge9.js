@@ -1,4 +1,4 @@
-// Challenge #9: Setting the message.
+// Challenge #9: Setting the
 
 function setMessage() {
   var currentNavigationState = JSON.stringify(navigation);
