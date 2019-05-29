@@ -1,12 +1,4 @@
-// Challenge #19 - Configuring Broadcast. Removing previous function calls.
-
-var configureBroadcast = () => {
-  setFrequency();
-  activateAntenna();
-  sendBroadcast();
-};
-
-configureBroadcast();
+// Challenge #20 - Decoding message.
 
 function decodeMessage(message) {
   var splittedMessage = message.split("");
