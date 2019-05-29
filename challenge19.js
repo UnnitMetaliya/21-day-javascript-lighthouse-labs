@@ -1,4 +1,4 @@
-// Challenge #19 - Configuring Broadcast. Removing previous function calls.
+// Challenge #19 - Configuring Broadcast. Removing previous function calls
 
 var configureBroadcast = () => {
   setFrequency();
